@@ -3305,7 +3305,8 @@
 /* Banner */
 
 	#banner {
-		background-color: #3498db;
+		background: rgb(2,0,36);
+		background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(66,9,121,1) 50%, rgba(255,0,33,1) 100%);
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
@@ -3633,7 +3634,7 @@
 			order: 1;
 			width: 50%;
 			display: block;
-			background: #FFF;
+			background: #1c1c1c;
 			padding: 8em;
 			text-align: right;
 			position: relative;
@@ -3761,7 +3762,7 @@
 
 		.post.style1 {
 			background-color: #fff;
-			color: #444;
+			color: #fff;
 		}
 
 			.post.style1 input, .post.style1 select, .post.style1 textarea {
@@ -3769,7 +3770,7 @@
 			}
 
 			.post.style1 a {
-				color: #1abc9c;
+				color: rgba(255,0,33,1);
 			}
 
 			.post.style1 strong, .post.style1 b {
@@ -3863,7 +3864,7 @@
 
 			.post.style1.invert {
 				background-color: #1abc9c;
-				color: rgba(255, 255, 255, 0.75);
+				color: #fff;
 			}
 
 				.post.style1.invert input, .post.style1.invert select, .post.style1.invert textarea {
@@ -3871,7 +3872,7 @@
 				}
 
 				.post.style1.invert a {
-					color: #fff;
+					color: #3498db;
 				}
 
 				.post.style1.invert strong, .post.style1.invert b {
@@ -3948,7 +3949,7 @@
 					}
 
 				.post.style1.invert .content {
-					background: #1abc9c;
+					background: #1c1c1c;
 				}
 
 					.post.style1.invert .content header p {
@@ -3975,7 +3976,7 @@
 
 		.post.style2 {
 			background-color: #fff;
-			color: #444;
+			color: #fff;
 		}
 
 			.post.style2 input, .post.style2 select, .post.style2 textarea {
@@ -3983,7 +3984,7 @@
 			}
 
 			.post.style2 a {
-				color: #3498db;
+				color: rgba(255,0,33,1);
 			}
 
 			.post.style2 strong, .post.style2 b {
@@ -4077,7 +4078,7 @@
 
 			.post.style2.invert {
 				background-color: #3498db;
-				color: rgba(255, 255, 255, 0.75);
+				color: #fff;
 			}
 
 				.post.style2.invert input, .post.style2.invert select, .post.style2.invert textarea {
@@ -4546,3 +4547,10 @@
 			}
 
 		}
+		
+		#template-map-wrap {
+		width: 100%;
+		height: 800px;
+		background-color: #1c1c1c;
+		}
+		
